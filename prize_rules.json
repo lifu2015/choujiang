@@ -1,0 +1,65 @@
+{
+  "event": {
+    "name": "新员工欢迎晚会",
+    "description": "庆祝35位新员工加入TechVision Solutions大家庭",
+    "totalEmployees": 43,
+    "activity": "抽奖活动"
+  },
+  "prizes": [
+    {
+      "level": "特等奖",
+      "rank": 1,
+      "winners": 1,
+      "description": "最高奖项",
+      "note": "1名获奖者"
+    },
+    {
+      "level": "一等奖",
+      "rank": 2,
+      "winners": 2,
+      "description": "一等奖项",
+      "note": "2名获奖者"
+    },
+    {
+      "level": "二等奖",
+      "rank": 3,
+      "winners": 2,
+      "description": "二等奖项",
+      "note": "2名获奖者"
+    },
+    {
+      "level": "三等奖",
+      "rank": 4,
+      "winners": 6,
+      "description": "三等奖项",
+      "note": "6名获奖者"
+    },
+    {
+      "level": "鼓励奖",
+      "rank": 5,
+      "winners": "remaining",
+      "description": "鼓励奖项",
+      "note": "颁发给未获得特等奖、一等奖、二等奖、三等奖的所有员工"
+    }
+  ],
+  "rules": {
+    "totalPrizeWinners": {
+      "mainPrizes": 11,
+      "encouragementPrize": "所有未获得主要奖项的员工",
+      "calculation": "特等奖(1) + 一等奖(2) + 二等奖(2) + 三等奖(6) = 11人"
+    },
+    "drawingRules": [
+      "1. 每位员工都有且仅有一次中奖机会",
+      "2. 按照奖项等级从高到低依次进行抽取",
+      "3. 已获得更高奖项的员工不参与后续奖项的抽取",
+      "4. 所有未获得主要奖项的员工将自动获得鼓励奖",
+      "5. 抽奖过程公开透明，确保公平性"
+    ]
+  },
+  "statistics": {
+    "totalParticipants": 43,
+    "mainPrizeWinners": 11,
+    "encouragementPrizeWinners": 32,
+    "prizeDistributionRate": "100%"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "prizes": [
+    {
+      "level": "特等奖",
+      "rank": 1,
+      "item": {
+        "name": "特斯拉 Model Y",
+        "description": "豪华纯电动 SUV",
+        "image": "Tesla-Model-Y.jpg",
+        "quantity": 1,
+        "estimatedValue": "￥300,000+"
+      }
+    },
+    {
+      "level": "一等奖",
+      "rank": 2,
+      "item": {
+        "name": "特斯拉 Model 3",
+        "description": "高性能纯电动轿车",
+        "image": "Tesla-Model-3.jpg",
+        "quantity": 2,
+        "estimatedValue": "￥250,000+"
+      }
+    },
+    {
+      "level": "二等奖",
+      "rank": 3,
+      "item": {
+        "name": "小米全屋智能家电套装",
+        "description": "包含智能电视、空调、冰箱等全套家电",
+        "image": "Xiaomi-Smart-Home.webp",
+        "quantity": 2,
+        "estimatedValue": "￥50,000+"
+      }
+    },
+    {
+      "level": "三等奖",
+      "rank": 4,
+      "item": {
+        "name": "马尔代夫双人10日游",
+        "description": "含机票、五星级度假村住宿、水上项目等",
+        "image": "Maldives.jpg",
+        "quantity": 6,
+        "estimatedValue": "￥30,000+"
+      }
+    },
+    {
+      "level": "鼓励奖",
+      "rank": 5,
+      "item": {
+        "name": "Apple iPhone 16 Pro Max",
+        "description": "最新款顶配 iPhone",
+        "image": "Apple iPhone 16 Pro Max.jpg",
+        "quantity": "remaining",
+        "estimatedValue": "￥10,000+"
+      }
+    }
+  ],
+  "totalValue": {
+    "mainPrizes": "预计总价值超过￥1,000,000",
+    "note": "所有奖品均为新品，确保每位获奖者收到最好的奖励"
+  },
+  "prizeDistribution": {
+    "specialPrize": "1人 - 特斯拉 Model Y",
+    "firstPrize": "2人 - 特斯拉 Model 3",
+    "secondPrize": "2人 - 小米全屋智能家电套装",
+    "thirdPrize": "6人 - 马尔代夫双人10日游",
+    "encouragementPrize": "其余人员 - iPhone 16 Pro Max"
+  },
+  "notes": [
+    "所有奖品均为正品，享受原厂保修",
+    "部分奖品可能需要缴纳个人所得税",
+    "旅游奖项有效期为一年",
+    "奖品不可折现或转让"
+  ]
+}
